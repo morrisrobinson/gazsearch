@@ -1,6 +1,7 @@
 {
     "name": "morrisrobinson/ukgazsearch",
     "description": "OS Open Data gazeteer API and front end",
+    "version": "1.0.0",
     "autoload": {
         "psr-4": {
             "Morrisrobinson\\UkgazSearch\\": "src/"
