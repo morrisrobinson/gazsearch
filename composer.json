@@ -1,0 +1,25 @@
+{
+    "name": "morrisrobinson/ukgazsearch",
+    "description": "OS Open Data gazeteer API and front end",
+    "autoload": {
+        "psr-4": {
+            "Morrisrobinson\\UkgazSearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "robin",
+            "email": "robin.morrison@buchanancomputing.co.uk"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Morrisrobinson\\UkgazSearch\\GazsearchServiceProvider"
+            ]
+        }
+    }
+}
