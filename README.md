@@ -6,7 +6,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/morrisrobinson/inspire"
+            "url": "https://github.com/morrisrobinson/gazsearch"
         }
     ],
   
